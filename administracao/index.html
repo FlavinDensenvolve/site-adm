@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração de Condomínios Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="bg-dark text-light p-4 text-center">
+        <h1 class="rm"><img src="img/topo-logo.jpg" alt="Logo" class="img-fluid logo">R&M.Imover
+            <strong class="titulo-destaque d-block">Um negócio com nível de qualidade!</strong>
+        </h1>
+        <p>Na R&M.Imover, oferecemos uma solução inovadora para a gestão de condomínios. Combinando tecnologia de ponta e uma equipe de especialistas, simplificamos a administração do seu condomínio, tornando-a mais eficiente e transparente.</p>
+    </header>
+    <main class="container mt-4">
+        <section class="mb-4">
+            <h2 class="text-center">Nossa Missão</h2>
+            <p>Nossa missão é proporcionar uma experiência de gestão condominial sem complicações, garantindo que todas as necessidades dos moradores e administradores sejam atendidas de forma rápida e eficaz.</p>
+        </section>
+        <section class="mb-4">
+            <h2 class="text-center">Nossos Serviços</h2>
+            <div class="bg-light p-3 rounded mb-3">Gestão Financeira: Controle de receitas e despesas, emissão de boletos e relatórios financeiros detalhados.</div>
+            <div class="bg-light p-3 rounded mb-3">Comunicação Eficaz: Plataforma para envio de comunicados, avisos e convocações de assembleias.</div>
+            <div class="bg-light p-3 rounded mb-3">Manutenção e Serviços: Agendamento e controle de serviços de manutenção e limpeza.</div>
+            <div class="bg-light p-3 rounded mb-3">Suporte ao Morador: Canal direto para atendimento e resolução de dúvidas e problemas dos condôminos.</div>
+            <div class="bg-light p-3 rounded mb-3">Documentação Online: Armazenamento seguro de documentos importantes e acesso fácil a qualquer momento.</div>
+        </section>
+        <section class="mb-4">
+            <h2 class="text-center">Vantagens da Administração Online</h2>
+            <div class="bg-light p-3 rounded mb-3">Transparência: Acesso a todas as informações financeiras e administrativas de forma clara e detalhada.</div>
+            <div class="bg-light p-3 rounded mb-3">Praticidade: Gerencie seu condomínio de qualquer lugar, a qualquer hora, com nosso sistema online.</div>
+            <div class="bg-light p-3 rounded mb-3">Eficiência: Redução de custos e tempo com processos automatizados e uma equipe dedicada.</div>
+            <div class="bg-light p-3 rounded mb-3">Interatividade: Melhoria na comunicação entre administradores e moradores, facilitando a convivência e a tomada de decisões.</div>
+        </section>
+        <section class="mb-4">
+            <h2 class="text-center">Por que escolher a R&M.Imover?</h2>
+            <div class="bg-light p-3 rounded mb-3">Experiência e Confiabilidade: Anos de experiência no mercado condominial, com uma equipe preparada para atender todas as suas necessidades.</div>
+            <div class="bg-light p-3 rounded mb-3">Tecnologia Avançada: Utilizamos as melhores ferramentas tecnológicas para garantir a segurança e eficiência do seu condomínio.</div>
+            <div class="bg-light p-3 rounded mb-3">Foco no Cliente: Nossa prioridade é a satisfação dos nossos clientes, oferecendo um serviço personalizado e de alta qualidade.</div>
+        </section>
+
+        <!-- Carrossel de Propriedades -->
+        <section class="mb-4">
+            <h2 class="text-center">Propriedades</h2>
+            <div id="propriedadesCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/1.jpg" class="card-img-top" alt="Imagem de apartamentos em um condomínio">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Apartamentos</h3>
+                                        <p class="card-text">Condomínios</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/2.jpg" class="card-img-top" alt="Imagem de casas em um condomínio">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Casas</h3>
+                                        <p class="card-text">Condomínios</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/3.jpg" class="card-img-top" alt="Imagem de um shopping center">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Shopping centers</h3>
+                                        <p class="card-text">Salas comerciais</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Adicione mais items do carrossel aqui, se necessário -->
+                </div>
+                <a class="carousel-control-prev" href="#propriedadesCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#propriedadesCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="text-center">Entre em Contato</h2>
+            <p>Pronto para transformar a administração do seu condomínio? Entre em contato conosco e descubra como podemos ajudar a tornar a gestão do seu condomínio mais simples e eficiente.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/flaviovieiraev" target="_blank">
+                    <img src="img/instagram-png.png" alt="Instagram">
+                </a>
+                <a href="https://wa.me/seu_numero_de_telefone" target="_blank">
+                    <img src="img/WhatsaAp-icon.png" alt="WhatsApp">
+                </a>
+                <a href="https://github.com/flavinho-vieira" target="_blank">
+                    <img src="img/github-logo.png" alt="GitHub">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-light p-4 text-center">
+        <p>&copy; 2024 R&M.Imover. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

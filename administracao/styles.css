@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #a1909043;
+  color: #a9bcb2; /* Texto branco para contraste com fundo preto */
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+}
+
+.rm {
+  background-color: #fffffffa;
+  color: #a9bcb2;
+  flex-direction: column;
+  min-height: 19vh;
+  display: flex;
+}
+
+img.logo {
+  margin: 20px auto; /* Corrigido para um margin mais apropriado */
+  padding: 50px;
+  width: 500px; /* Define um tamanho apropriado para a logo */
+  height: 500px;
+  border-radius: 1000px; /* Arredondamento leve */
+}
+
+.titulo-destaque {
+  color: #a9bcb2;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3.5em;
+}
+
+header strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-style: initial;
+}
+
+.text-center {
+  color: #5b7567;
+  
+}
+
+section h2, section h3 {
+  color: #a9bcb2;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons img {
+  width: 100%;
+  height: 100%;
+}
